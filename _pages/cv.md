@@ -15,7 +15,7 @@ Education
 ======
 * B.S. in Physics, Mahidol University, 2019
 * M.S. in Physics, Mahidol University, 2021
-* Ph.D in Version Control Theory, University of Tübingen, 2021-Now
+* Ph.D in Physics (Quantum metrology), University of Tübingen, 2021-Now
 
 <!---
 Work experience
