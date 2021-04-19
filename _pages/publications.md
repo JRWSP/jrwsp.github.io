@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on my <u><a href="{{author.googlescholar}}">Google Scholar profile</a>.</u>
+You can also find my articles on my <u><a href="https://scholar.google.com/citations?user=PW8eElMAAAAJ">Google Scholar profile</a>.</u>
 
 * J. Saiphet, S. Suwanna, A. R. R. Carvalho, and A. Chantasri, Time-delayed Quantum Feedback and Incomplete Decoherence Suppression with No-Knowledge Measurement. <u><a href="https://doi.org/10.1103/PhysRevA.103.022208">Phys. Rev. A 103, 022208 (2021)</a>.</u>
     
