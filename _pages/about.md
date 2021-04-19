@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jirawat Saiphet Homepage"
+title: "My Homepage"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
