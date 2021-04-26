@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Thai PhD student at University of Tübingen, Germany. My project is on controlling the dynamics of interacting NV-centers for Quantum Sensing. My previous works are mostly theoretical and numrical investigations in quantum information, especially in optimization.  
+I am a Thai PhD student at University of Tübingen, Germany. My project is on controlling the dynamics of interacting NV-centers for Quantum Sensing. I have experiences in theoretical and numrical investigations of quantum information, optimization and optimal control.  
 
 A data-driven personal website
 ======
