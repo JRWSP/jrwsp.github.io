@@ -194,7 +194,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  conferences:
+  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -246,12 +246,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _conferences
+  # _talks
   - scope:
       path: ""
-      type: conferences
+      type: talks
     values:
-      layout: conference
+      layout: talk
       author_profile: true
       share: true
 
