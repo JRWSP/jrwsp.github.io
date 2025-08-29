@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: Repo to my hobby coding projects, mostly just for fun and learn new things.
 nav: true
 nav_order: 4

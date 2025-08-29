@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Quantum physicist | postdoc researcher | <a href='#'>QWANTA</a> contributor.
 
 profile:
   align: right
@@ -32,7 +32,9 @@ I recently completed my Ph.D. on simulating strongly interacting NV-center ensem
 I will soon be starting a new postdoctoral position in Italy.
 My research interests also include quantum computing, numerical optimization, and quantitative finance.
 
-In my free time, I enjoy diving, hiking, and good drinks.
+I enjoy diving🤿, hiking🥾, coding💻, and drinking🍺
+
+I am a cat person 🐈
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
