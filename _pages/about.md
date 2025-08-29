@@ -6,7 +6,7 @@ subtitle: Quantum physicist | postdoc researcher | <a href='#'>QWANTA</a> contri
 
 profile:
   align: right
-  image: about_pic.jpg
+  image: pic_gemini.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Nickname: Aom</p>
