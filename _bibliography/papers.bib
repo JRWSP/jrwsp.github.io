@@ -5,7 +5,6 @@
 
 
 @article{PhysRevA.111.022604,
-  abbr={PhysRevA},
   title = {Simulation of the dissipative dynamics of strongly interacting nitrogen-vacancy centers with tensor networks},
   author = {Saiphet, Jirawat and Braun, Daniel},
   journal = {Phys. Rev. A},
@@ -17,7 +16,15 @@
   month = {Feb},
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevA.111.022604},
-  url = {https://link.aps.org/doi/10.1103/PhysRevA.111.022604}
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.111.022604},
+  abstract = {Nitrogen-vacancy (NV) centers in diamond are a promising platform for highly sensitive quantum sensors for magnetic fields and other physical quantities. The quest for high sensitivity combined with high spatial resolution naturally leads to dense ensembles of NV centers and hence to strong, long-range interactions between them. Hence, simulating strongly interacting NVs becomes essential. However, obtaining the exact dynamics for a many-spin system is a challenging task due to the exponential scaling of the Hilbert space dimension, a problem that is exacerbated when the system is modeled as an open quantum system. In this work, we employ the matrix product density operator (MPDO) method to represent the many-body mixed state and to simulate the dynamics of an ensemble of NVs in the presence of strong long-range couplings due to dipole-dipole forces. We benchmark different time-evolution algorithms in terms of numerical accuracy and stability against time evolution based on exact numerical diagonalization. Subsequently, we simulate the dynamics in the strong-interaction regime and study the impact of decoherence on the accuracy of the MPDO method. Last, we investigate the dynamics of quantum Fisher information and show that for small distances below about 5 nm the resulting strong dipole-dipole interaction can improve the sensitivity for magnetic field sensing when the ensemble is driven by pulses of constant amplitude.},
+  abbr={PhysRevA},
+  preview={Spectrum-123-ODMR.png},
+  altmetric={164499217},
+  dimensions={true},
+  google_scholar_id={qjMakFHDy7sC},
+  selected={true},
+  inspirehep_id = {2797479}
 }
 
 @article{PhysRevApplied.19.064001,
@@ -32,21 +39,35 @@
   month = {Jun},
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevApplied.19.064001},
-  url = {https://link.aps.org/doi/10.1103/PhysRevApplied.19.064001}
+  url = {https://link.aps.org/doi/10.1103/PhysRevApplied.19.064001},
+  abstract = {Banks are required to set aside funds in their income statement, known as a loan-loss provision (LLP), to account for potential loan defaults and expenses. By treating the LLP as a global constraint, we propose a hybrid quantum-classical algorithm to solve a specific case of quadratic constrained binary optimization (QCBO) models for loan-collection optimization. The objective is to find a set of optimal loan-collection actions that maximizes the expected net profit presented to the bank as well as the financial welfare in the financial network of loanees, while keeping the LLP at its minimum. Our algorithm consists of three parts: a classical divide-and-conquer algorithm to enable a large-scale optimization, a quantum alternating operator ansatz (QAOA) algorithm to maximize the objective function, and a classical sampling algorithm to handle the LLP. We apply the algorithm to a real-world data set with 600 loanees and five possible collection actions. The QAOA is performed using up to 35 qubits on a classical computer. We show that incorporating the QAOA can enhance the expected net profit by approximately 70% in comparison to scenarios where the QAOA is absent from the hybrid algorithm. Although this improvement does not constitute definitive evidence of quantum advantage, our work illustrates the use of near-term quantum devices to tackle real-world optimization problems.},
+  altmetric={149233092},
+  dimensions={true},
+  google_scholar_id={9yKSN-GCB0IC},
+  selected={true},
+  inspirehep_id = {1955966},
+  abbr = {PhysRevApplied},
+  preview = {paper_kbtg.png}
 }
 
 @article{Saiphet_2021,
-doi = {10.1088/1742-6596/1719/1/012100},
-url = {https://dx.doi.org/10.1088/1742-6596/1719/1/012100},
-year = {2021},
-month = {jan},
-publisher = {IOP Publishing},
-volume = {1719},
-number = {1},
-pages = {012100},
-author = {Saiphet, Jirawat and Suwanna, Sujin and Chotibut, Thiparat and Chantasri, Areeya},
-title = {Quantum approximate optimization and k-means algorithms for data clustering},
-journal = {Journal of Physics: Conference Series}
+  doi = {10.1088/1742-6596/1719/1/012100},
+  url = {https://dx.doi.org/10.1088/1742-6596/1719/1/012100},
+  year = {2021},
+  month = {jan},
+  publisher = {IOP Publishing},
+  volume = {1719},
+  number = {1},
+  pages = {012100},
+  author = {Saiphet, Jirawat and Suwanna, Sujin and Chotibut, Thiparat and Chantasri, Areeya},
+  title = {Quantum approximate optimization and k-means algorithms for data clustering},
+  journal = {Journal of Physics: Conference Series},
+  abstract = {Noisy intermediate-scale quantum (NISQ) devices are cutting-edge technology expected to demonstrate potential and advantages of quantum computing over classical computing. Its low number of qubits and imperfection from noises restrict running full-scale quantum algorithms on such devices; however, quantum advantages can still be obtained. To achieve quantum advantages from NISQ devices, the hybrid quantum-classical algorithms were introduced. Quantum approximate optimization algorithm (QAOA) is a variational hybrid algorithm, which utilizes a NISQ device as a sub-unit for specific tasks and performs most calculations on a classical computer. QAOA provides an approximate solution, with arbitrary precision as the number of operations increases, for optimization problems. In this work we investigate the possibility of applying QAOA to a clustering problem and compare its performance with the classical k-means algorithm. It turns out that the weights in graph connectivity can degrade the algorithm operation and make it more difficult to approximate the solution. We also benchmark the QAOA by comparing the approximated solutions with the exact one obtained from a classical clustering algorithm.},
+  dimensions={true},
+  google_scholar_id={d1gkVwhDpl0C},
+  selected={false},
+  abbr = {JPhys:ConfSer},
+  preview = {proceeding_spc2020.png}
 }
 
 @article{PhysRevA.103.022208,
@@ -61,73 +82,34 @@ journal = {Journal of Physics: Conference Series}
   month = {Feb},
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevA.103.022208},
-  url = {https://link.aps.org/doi/10.1103/PhysRevA.103.022208}
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.103.022208},
+  abstract = {The no-knowledge quantum feedback was proposed by Szigeti et al. [Phys. Rev. Lett. 113, 020407 (2014)] as a measurement-based feedback protocol for decoherence suppression for an open quantum system. By continuously measuring environmental noises and feeding back controls on the system, the protocol can completely reverse the measurement back-action and therefore suppress the system's decoherence. However, the complete decoherence cancellation was shown only for the instantaneous feedback, which is impractical in real experiments. Therefore, in this work, we generalize the original work and investigate how the decoherence suppression can be degraded with unavoidable delay times, by analyzing non-Markovian average dynamics. We present analytical expressions for the average dynamics and numerically analyze the effects of the delayed feedback for a coherently driven two-level system, coupled to a bosonic bath via a Hermitian coupling operator. We also find that, when the qubit's unitary dynamics does not commute with the measurement and feedback controls, the decoherence rate can be either suppressed or amplified, depending on the delay time.},
+  altmetric={92408695},
+  dimensions={true},
+  google_scholar_id={u-x6o8ySG0sC},
+  selected={true},
+  abbr = {PhysRevA},
+  preview = {paper_nk_measure.png}
 }
 
 @article{Saiphet_2019,
-doi = {10.1088/1742-6596/1380/1/012113},
-url = {https://dx.doi.org/10.1088/1742-6596/1380/1/012113},
-year = {2019},
-month = {nov},
-publisher = {IOP Publishing},
-volume = {1380},
-number = {1},
-pages = {012113},
-author = {Saiphet, Jirawat and Chantasri, Areeya and Suwanna, Sujin},
-title = {Effects of time delay in no-knowledge quantum feedback control},
-journal = {Journal of Physics: Conference Series}
-}
-
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+  doi = {10.1088/1742-6596/1380/1/012113},
+  url = {https://dx.doi.org/10.1088/1742-6596/1380/1/012113},
+  year = {2019},
+  month = {nov},
+  publisher = {IOP Publishing},
+  volume = {1380},
+  number = {1},
+  pages = {012113},
+  author = {Saiphet, Jirawat and Chantasri, Areeya and Suwanna, Sujin},
+  title = {Effects of time delay in no-knowledge quantum feedback control},
+  journal = {Journal of Physics: Conference Series},
+  abstract = {The no-knowledge quantum feedback, introduced in Phys. Rev. Lett., 113, 020407 (2014), is a measurement-based feedback protocol for decoherence suppression in a quantum system coupled to noisy environment. By continuously measuring the environmental noise, without directly gathering any information about the system, the decoherence effect can be suppressed by feeding back quantum controls proportional to the measured signal. In the original work, the feedback control was assumed instantaneous, leading to perfect cancellation of noise backaction on the quantum system. However, the instantaneous feedback is difficult to achieve in practice, and close-loop feedback protocols are always associated with finite delayed time. Therefore, in this work, we consider the effects of the delay between the time at which the measurement signal is acquired and the time that such signal is fed back to the system. We investigate the problem with an example of a two-level system (qubit) coupled to a Markovian reservoir, via a Hermitian coupling operator, where a homodyne detection is used to measure the environmental noise. We numerically simulate quantum stochastic trajectories of the qubit and analyse their averaged dynamics. We find that the feedback control with time delay can either enhance or reduce the decoherence effects, depending on whether the delayed time is in-phase or out-of-phase with the unitary dynamics of the qubit system.},
   dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+  google_scholar_id={u5HHmVD_uO8C},
+  selected={false},
+  abbr = {JPhys:ConfSer},
+  preview = {proceeding_nk.png}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
+
