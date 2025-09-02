@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-exploring-the-mlx",
+        },{id: "post-quantum-entanglement-verifying",
+        
+          title: "Quantum entanglement verifying",
+        
+        description: "Numerical entanglement checking of a pure state",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Entanglement/";
+          
+        },
+      },{id: "post-exploring-the-mlx",
         
           title: "Exploring the MLX",
         
