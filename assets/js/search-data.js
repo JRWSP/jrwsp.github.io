@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-quantum-entanglement-verifying",
+        },{id: "post-เหยื่อคุกคามทางเพศกับการแต่งตัว",
+        
+          title: "เหยื่อคุกคามทางเพศกับการแต่งตัว",
+        
+        description: "กับดักความคิด&amp;Conditional probability",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/CondProbVictim/";
+          
+        },
+      },{id: "post-quantum-entanglement-verifying",
         
           title: "Quantum entanglement verifying",
         
