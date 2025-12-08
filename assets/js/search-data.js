@@ -75,10 +75,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-today-i-finally-finished-writing-my-thesis",
-          title: 'Today I finally finished writing my thesis.',
-          description: "",
-          section: "News",},{id: "news-unofficially-accepted-for-a-new-position-in-italy",
+            },},{id: "news-unofficially-accepted-for-a-new-position-in-italy",
           title: 'Unofficially accepted for a new position in Italy.',
           description: "",
           section: "News",},{id: "news-today-i-successfully-defensed-my-phd-thesis-sparkles-smile",
@@ -86,6 +83,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-my-thesis-is-available-online",
           title: 'My thesis is available online',
+          description: "",
+          section: "News",},{id: "news-just-earned-my-advanced-open-water-certification-pushing-to-30m-limits-and-discovering-a-whole-new-world",
+          title: '🤿 Just earned my Advanced Open Water certification — pushing to 30m limits...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -137,7 +137,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%69%72%61%77%61%74.%73%61%69@%70%72%6F%74%6F%6E.%6D%65", "_blank");
+          window.open("mailto:%68%6F%6D%65%70%61%67%65@%61%6F%6D%6D%79.%78%79%7A", "_blank");
         },
       },{
         id: 'social-x',
