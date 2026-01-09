@@ -147,32 +147,11 @@ ninja.data = [{
           window.open("https://twitter.com/JRWSPth", "_blank");
         },
       },{
-        id: 'social-bluesky',
-        title: 'Bluesky',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://bsky.app/profile/jrwspth.bsky.social", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/JRWSP", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/jrwsp/", "_blank");
-        },
-      },{
-        id: 'social-mastodon',
-        title: 'Mastodon',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://https://mastodon.social/@jisaiqq", "_blank");
         },
       },{
         id: 'social-scholar',
