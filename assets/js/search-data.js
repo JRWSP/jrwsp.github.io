@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-เหยื่อคุกคามทางเพศกับการแต่งตัว",
+        },{id: "post-dequantized-the-quantum-machine-learning",
+        
+          title: "Dequantized the Quantum Machine Learning",
+        
+        description: "De-hype the quantum AI.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/DequantizedQML/";
+          
+        },
+      },{id: "post-เหยื่อคุกคามทางเพศกับการแต่งตัว",
         
           title: "เหยื่อคุกคามทางเพศกับการแต่งตัว",
         
