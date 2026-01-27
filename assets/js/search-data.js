@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "Repo to my hobby coding projects, mostly just for fun and learn new things.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "post-dequantized-the-quantum-machine-learning",
         
           title: "Dequantized the Quantum Machine Learning",
@@ -149,13 +142,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%68%6F%6D%65%70%61%67%65@%61%6F%6D%6D%79.%78%79%7A", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/JRWSPth", "_blank");
         },
       },{
         id: 'social-linkedin',
