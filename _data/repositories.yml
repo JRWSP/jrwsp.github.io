@@ -1,0 +1,10 @@
+github_users:
+  - JRWSP
+
+repo_description_lines_max: 2
+
+github_repos:
+  - JRWSP/pi_wotd_eink
+  - JRWSP/SimpleEarnAPY
+  - JRWSP/SileroVAD_for_Whisper-cpp
+  - JRWSP/CashAndCarryTerminal

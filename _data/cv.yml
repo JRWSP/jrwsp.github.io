@@ -1,0 +1,88 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Jirawat Saiphet
+    - name: Date of Birth
+      value: 12th March 1997
+    - name: Languages
+      value: English, Thai
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D.
+      institution: Eberhard Karls Universität Tübingen, Tübingen, Germany
+      year: 2025
+      description:
+        - Developed tensor network simulations of strongly interacting nitrogen-vacancy (NV) centers in diamond.
+        - Explored the limitations in simulating the dynamics of NV clusters under interaction, disorder, and dissipation.
+        - Investigated quantum fisher information and entanglement generation, and achieved highly sensitive probe states composed of collective spins using optimal control methods.
+    - title: M.Sc.
+      institution: Mahidol University, Bangkok, Thailand
+      year: 2021
+      description:
+        - Conducted research on Quantum Approximate Optimization Algorithm (QAOA) using IBM’s Qiskit.
+        - Evaluated the QAOA’s potential in solving clustering problems.
+        - Benchmarked performance against the classical K-means clustering algorithm
+    - title: B.Sc.
+      institution: Mahidol University, Bangkok, Thailand
+      year: 2019
+      description:
+        - Conducted research on decoherence suppression in a single qubit by quantum delayed feedback based on the no-knowledge measurement.
+        - Analytically derived compatible results between the Itô and Stratonovich stochastic master equations.
+        - rovided analytical solutions for delayed feedback where the measurement operator commutes with a unitary operator, supplemented by numerical results for the general case.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Postdoc Researcher
+      institution: DiFC-UNIPA, University of Palermo
+      year: Q4/2025-Present
+      description:
+        - How can quantum computing help in Protein molecular Dynamics? 
+        - Investigate quantum computing techniques to handle effective sampling of the protein conformational space.
+
+    - title: Quantum Algorithm Researcher
+      institution: Quantum Technology Foundation (Thailand)
+      year: 02/2021-05/2021
+      description:
+        - Temporary position for the one-time project.
+        - Explored challenges in financial sector and identified potential applications of quantum algorithms.
+        - Developed a proof-of-concept to demonstrate the quantum-classical hybrid algorithm.
+
+- title: Fellowships, Grants and Scholarships
+  type: time_table
+  contents:
+    - year: 2021
+      items:
+        - PhD funded by Baden-Württemberg Foundation for project CDINQUAs
+    - year: 2020
+      items:
+        - Research Fellowship for Thailand Frontier Research Fund, grant number B05F630108
+    - year: 2019
+      items:
+        - Scholarship for Young Scientists, Mahidol University
+    - year: 2015
+      items:
+        - Sritrang Tong Scholarship, Mahidol University
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Physics
+      items:
+        - Quantum Information
+        - Quantum Simulation
+        - Many-body Physics
+    - title: Non-physics.
+      items:
+        - Machine Learning
+        - Quantitative Finance
+        - High Performance Computing
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Diving, self-hosting, watches, drinking.
+    - <u>Sports:</u> Basketball, football.
