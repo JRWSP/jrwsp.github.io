@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-dequantized-the-quantum-machine-learning",
+        },{id: "post-ทำไมกฎข้อแรกของนิวตันไม่ใช่-แค่-sum-f-0",
+        
+          title: "ทำไมกฎข้อแรกของนิวตันไม่ใช่(แค่)$\sum F = 0$?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/Newtons1st-law/";
+          
+        },
+      },{id: "post-dequantized-the-quantum-machine-learning",
         
           title: "Dequantized the Quantum Machine Learning",
         
