@@ -9,7 +9,7 @@ profile:
   image: pic_gemini.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Nickname: Aom</p>
+    <p>Call me "Aom".</p>
     <p></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
