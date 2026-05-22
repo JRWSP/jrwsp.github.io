@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-12-06 16:30:00-0400
+date: 2026-05-21 14:30:00-0400
 inline: true
 related_posts: false
 ---
 
-🤿 Just earned my Advanced Open Water certification — pushing to 30m limits and discovering a whole new world 🐠.
+🇹🇭 Proud to have been part of the organizing team for the SQST2026 Conference. Looking forward to the next one in 2028!
