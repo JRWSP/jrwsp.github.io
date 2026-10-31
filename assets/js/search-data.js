@@ -90,10 +90,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-unofficially-accepted-for-a-new-position-in-italy",
-          title: 'Unofficially accepted for a new position in Italy.',
-          description: "",
-          section: "News",},{id: "news-today-i-successfully-defensed-my-phd-thesis-sparkles-smile",
+            },},{id: "news-today-i-successfully-defensed-my-phd-thesis-sparkles-smile",
           title: 'Today I successfully defensed my PhD thesis! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "news-my-thesis-is-available-online",
