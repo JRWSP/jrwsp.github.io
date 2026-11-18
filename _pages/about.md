@@ -27,13 +27,16 @@ latest_posts:
 ---
 Hallo! Ciao! Hi! สวัสดี! 
 
-I am a quantum physicist from Thailand, currently based in EU.
-My research interests also include quantum computing, numerical optimization, and quantitative finance.
-I recently completed my Ph.D. on simulating strongly interacting NV-center ensembles using Matrix Product States and Density Operators.
+Quantum physicist from Thailand, currently a postdoc in Palermo, Italy.  
+My research spans quantum computing, quantum metrology, and tensor network.  
+I earned a Ph.D. from Uni Tübingen on MPS/MPDO simulation of strongly interacting NV-centers and probe's sensitivity optimization.
 
-I enjoy scuba🤿, hiking🥾, coding💻, and drinking🍺
+Current work centers on quantum-inspired algorithms for complex dynamical systems.  
 
-I am a cat person 🐈
+I enjoy scuba🤿, hiking🥾, and drinking🍺.  
+
+I am a cat person 🐈.
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
