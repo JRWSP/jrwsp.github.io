@@ -67,10 +67,14 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # Pinned: GitHub started moving the ubuntu-latest label to Ubuntu 26.04 on 2026-10-19,
+    # and ruby/setup-ruby only publishes prebuilt binaries for the latest patch of each
+    # Ruby series on new runner images. Ruby 3.3.5 has no ubuntu-26.04 build (404), which
+    # is why deploy failed. Revisit (ruby-version: "3.3" + ubuntu-latest) when 24.04 retires.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
@@ -82,7 +86,7 @@ jobs:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
       - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
+        uses: fjogeleit/yaml-update-action@dffe9a5223d84653c13374032382f6bb5de8e5ef # v0.17.0
         with:
           commitChange: false
           valueFile: "_config.yml"
